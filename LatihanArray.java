@@ -17,7 +17,6 @@ public class LatihanArray{
 
         System.out.println(Arrays.toString(hasil));
 
-
     }
     static void printArray(int [] array,String message){
         System.out.println("Array " + message + " adalah: " + Arrays.toString(array) );
