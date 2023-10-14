@@ -4,8 +4,8 @@ public class LatihanArray{
     public static void main(String[] args) {
         System.out.println("Menjumlahkan array");
 
-        int array[] = {12,64,123,25,5};
-        int array2[] = {15,23,45,22,12};
+        int []array = {12,64,123,25,5};
+        int []array2 = {15,23,45,20,12};
 
         Arrays.sort(array);
         Arrays.sort(array2);
@@ -13,9 +13,9 @@ public class LatihanArray{
         printArray(array,"Array1");
         printArray(array2,"Array2");
 
-        hasil(array,array2);
+        int[] hasil = hasil(array, array2);
 
-        System.out.println(Arrays.toString(hasil(array,array2)));
+        System.out.println(Arrays.toString(hasil));
 
 
     }
