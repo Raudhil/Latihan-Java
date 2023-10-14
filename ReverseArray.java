@@ -12,7 +12,6 @@ public class ReverseArray {
 
         reverse(array);
 
-
     }
     static void reverse(int[] array){
         int [] array2 = new int[array.length];
