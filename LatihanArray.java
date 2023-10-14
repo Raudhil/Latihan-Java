@@ -5,7 +5,7 @@ public class LatihanArray{
         System.out.println("Menjumlahkan array");
 
         int array[] = {12,64,123,25,5};
-        int array2[] = {15,23,45,23,12};
+        int array2[] = {15,23,45,22,12};
 
         Arrays.sort(array);
         Arrays.sort(array2);
